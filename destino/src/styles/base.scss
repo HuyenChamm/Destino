@@ -1,0 +1,84 @@
+body {
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 300;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  
+}
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+
+:root {
+  --blue: #131a2f;
+  --lightpink: #fe435b ;
+  --white: #fff;
+  --lightgray:#7d8293;
+  --pink: #fe364a;
+  --gray:#929292;
+}
+
+h1 {
+  font-size: 160px;
+  font-weight: 100;
+}
+
+h2 {
+  font-size: 40px;
+}
+
+h3 {
+  font-size: 36px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h5 {
+  font-size: 24px;
+}
+
+h6 {
+  font-size: 20px;
+}
+
+p, a {
+  font-size: 16px;
+}
+
+.sm {
+  font-size: 14px;
+}
+
+h2, h3, h4, h5, h6, p, a {
+  font-weight: 300;
+  font-family: "Montserrat", sans-serif;
+}
+
+.btn-pink {
+  width: 160px;
+  height: 56px;
+  background-color: var(--lightpink);
+  border: none;
+}
+.btn-pink p {
+  font-weight: 500;
+  color: var(--white);
+  margin-bottom: 0;
+}
+
+.btn-pink:hover {
+  opacity: 0.8;
+}
+
+.btn-blue {
+  padding: 18.5px 44px 18px 44px;
+  background-color: var(--blue);
+  border: none;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+}
