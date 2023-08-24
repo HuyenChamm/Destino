@@ -2,6 +2,11 @@
   "emmet.includeLanguages": {
     "javascript": "javascriptreact",
     "razor": "html",
-    "plaintext": "pug"
+    "plaintext": "pug",
+  },
+  "settings": {
+    "css.remoteStyleSheets": [
+      "https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css"
+    ]
   }
 }

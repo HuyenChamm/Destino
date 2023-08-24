@@ -11,6 +11,22 @@ export default function Base() {
   };
   return (
     <div className='container'>
+    <h1>Aa</h1>
+      <div className='d-flex flex-column justify-content-between align-items-center'>
+        <button className='btn-pink'>
+          <p>Find</p>
+        </button>
+
+        <a href='/' className='btn-blue'>
+          See offer
+        </a>
+      </div>
+      <h2>AAAAAAaaaa</h2>
+      <h3>AAAAAAaaaa</h3>
+      <h4>AAAAAAaaaa</h4>
+      <h5>AAAAAAaaaa</h5>
+      <h6>AAAAAAaaaa</h6>
+      <p>AAAAAAaaaaa</p>
       <div>
         <Slider {...settings}>
           <div>

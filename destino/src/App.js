@@ -2,7 +2,7 @@ import React from 'react';
 import { Routes, Route } from "react-router-dom";
 
 import Header from './components/Layout/Header';
-import Home from './components/Home';
+
 import Footer from './components/Layout/Footer';
 import '../node_modules/bootstrap/scss/bootstrap.scss';
 import '../node_modules/bootstrap/dist/js/bootstrap.bundle';
@@ -13,6 +13,11 @@ import Base from './components/Base';
 
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
+import Home from './components/Home/Home';
+import About from './components/About/About';
+import Contact from './components/Contact/Contact';
+import Offers from './components/Offers/Offers';
+import News from './components/News/News';
 
 export default function App() {
   return (
@@ -20,7 +25,10 @@ export default function App() {
     <Header/>
     <Routes>
       <Route path="/" element={<Home/>} />
-      {/* <Route path="About" element={<About/>} /> */}
+      <Route path="about" element={<About/>} />
+      <Route path="news" element={<News/>} />
+      <Route path="offers" element={<Offers/>} />
+      <Route path="contact" element={<Contact/>} />
       <Route path="Base" element={<Base/>} />
     </Routes>
     <Footer/>

@@ -1,3 +1,17 @@
+:root {
+  --blue: #131a2f;
+  --lightpink: #fe435b ;
+  --white: #fff;
+  --lightgray:#7d8293;
+  --pink: #fe364a;
+  --gray:#929292;
+}
+
+$screen-sm: 375px;
+$screen-md: 768px;
+$screen-lg: 992;
+$screen-xl: 1440px;
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
@@ -11,14 +25,7 @@ body {
   margin: 0 auto;
 }
 
-:root {
-  --blue: #131a2f;
-  --lightpink: #fe435b ;
-  --white: #fff;
-  --lightgray:#7d8293;
-  --pink: #fe364a;
-  --gray:#929292;
-}
+
 
 h1 {
   font-size: 160px;
@@ -51,6 +58,9 @@ p, a {
 
 .sm {
   font-size: 14px;
+}
+.xs{
+  font-size: 9px;
 }
 
 h2, h3, h4, h5, h6, p, a {
