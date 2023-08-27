@@ -47,13 +47,13 @@ export default function Header() {
             className=" d-flex w-100 menu"
             style={{ height: `${headerHeight}px` }}
           >
-            <a className="navbar-brand ms-4 pt-2 m-auto" href="/">
+            <div className="navbar-brand ms-4 pt-2 m-auto" >
               <img className="img" src="/images/logo.png" alt="" />
               <div className="name_logo">
                 <h6>DESTINO</h6>
                 <p className="xs">TRAVEL AGENCY</p>
               </div>
-            </a>
+            </div>
             <button
               className="navbar-toggler"
               type="button"
