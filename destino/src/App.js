@@ -18,6 +18,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import Offers from './components/Offers/Offers';
 import News from './components/News/News';
+import Find from './components/Home/Find';
 
 export default function App() {
   return (
@@ -30,6 +31,7 @@ export default function App() {
       <Route path="offers" element={<Offers/>} />
       <Route path="contact" element={<Contact/>} />
       <Route path="Base" element={<Base/>} />
+      <Route path="find" element={<Find/>} />
     </Routes>
     <Footer/>
   </div>

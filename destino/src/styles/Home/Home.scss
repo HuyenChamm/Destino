@@ -1,0 +1,50 @@
+.home{
+  .banner{
+    background-image: url('../../../public/images/home.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+    position: relative;
+    h1{
+      font-size: 215px;
+      font-weight: 900;
+      color: #fdaa27;
+      opacity: 0.34;
+    }
+    h2{
+      font-size: 72px;
+      font-weight: 400;
+      color: var(--white);
+    }
+    .title{
+      display:flex;
+      flex-direction:column;
+      justify-content: center;
+      align-items: center;
+      position: absolute;
+      inset: 0;
+      h2{
+        position: absolute;
+      }
+    }
+    @media (max-width:1440px){  
+      h1{
+        font-size: 125px;
+      }
+      h2{
+        font-size: 42px;
+      }
+    }
+    @media (max-width:768px){  
+      h1{
+        font-size: 64px;
+      }
+      h2{
+        font-size: 24px;
+      }
+    }
+  
+  }
+  
+}

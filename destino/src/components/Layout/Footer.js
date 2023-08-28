@@ -5,7 +5,7 @@ export default function Footer() {
     <div className="footer">
       <div className="container content_footer">
         <div className="intro">
-          <div className="pt-2 m-auto">
+          <div className=" m-auto">
             <img className="img" src="/images/logo.png" alt="" />
             <div className="name_logo">
               <h6>DESTINO</h6>
