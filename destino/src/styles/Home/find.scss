@@ -41,14 +41,18 @@
   input, .dropdown-toggle:hover{
     border-color: var(--lightpink);
   }
-
-  @media (min-width: 769px)
+  @media (min-width: 1024px)
   {
+    .right,.left{
+      width: 50%;
+
+      justify-content: space-around;
+    }
     .max,.min{
-      width: 8%;
+      width: 35%;
     }
     .categori,.destination{
-      width: 30%;
+      width: 45%;
     }
     .btn-pink{
       margin-top: 40px;
@@ -59,8 +63,28 @@
       justify-content: space-around;
     }
   }
+  @media (min-width: 769px)
+  {
+    .max,.min{
+      width: 25%;
+    }
+    .categori,.destination{
+      width: 40%;
+    }
+    .btn-pink{
+      margin-top: 40px;
+    }
+    .right,.left{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+  }
   @media (max-width:768px)
   { 
+    h4{
+      font-size: 24px;
+    }
     p{
       font-size: 14px;
       padding-top: 10px;
@@ -75,6 +99,7 @@
     }
     input{
       height: 32px;
+      width: 100%;
     }
     .btn-pink{
       p{
