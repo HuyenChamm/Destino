@@ -1,5 +1,6 @@
 import React from "react";
 import Find from "./Find";
+import Top from "./Top";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
         </div>
       </div>
     <Find/>
+    <Top/>
     </div>
   );
 }

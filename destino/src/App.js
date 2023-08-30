@@ -19,6 +19,7 @@ import Contact from './components/Contact/Contact';
 import Offers from './components/Offers/Offers';
 import News from './components/News/News';
 import Find from './components/Home/Find';
+import Top from './components/Home/Top';
 
 export default function App() {
   return (
@@ -32,6 +33,7 @@ export default function App() {
       <Route path="contact" element={<Contact/>} />
       <Route path="Base" element={<Base/>} />
       <Route path="find" element={<Find/>} />
+      <Route path="top" element={<Top/>} />
     </Routes>
     <Footer/>
   </div>
