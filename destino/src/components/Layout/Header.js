@@ -134,7 +134,7 @@ export default function Header() {
           </button>
           <div className="mt-5 d-flex">
             <input type="text" />
-            <SearchOutlined className="find" style={{ fontSize: "20px", color: "black" }}/>
+            <SearchOutlined className="findd" style={{ fontSize: "20px", color: "black" }}/>
           </div>
           <ul className="mt-5">
             <li className="">

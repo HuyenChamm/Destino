@@ -1,0 +1,47 @@
+.discount{
+  background-image: url('../../../public/images/last.jpg');
+  background-size: cover;
+  background-position: center;
+  width: 100%;
+  color: var(--white);
+    .offer_child{
+    background-color: rgba(254, 60, 82, 0.8);
+    text-align: center;
+    padding: 50px 35px;
+  }
+  .content{
+    position: relative;
+  }
+  .logo{
+    position: absolute;
+    left: -40px;
+  }
+  @media (max-width: $screen-md)
+  {
+    h6{
+      font-size: 16px;
+    }
+    p{
+      font-size: 12px;
+    }
+    h1{
+      font-size: 72px;
+    }
+    .img_logo{
+      width: 60%;
+      margin-top: -40px;
+    }
+   
+  }
+  @media (min-width : $screen-lg)
+  {
+    .offer{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-around;
+    }
+    .offer_child{
+      width: 48%;
+    }
+  }
+}

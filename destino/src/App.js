@@ -20,6 +20,8 @@ import Offers from './components/Offers/Offers';
 import News from './components/News/News';
 import Find from './components/Home/Find';
 import Top from './components/Home/Top';
+import Discount from './components/Home/Discount';
+import Video from './components/Home/Video';
 
 export default function App() {
   return (
@@ -34,6 +36,8 @@ export default function App() {
       <Route path="Base" element={<Base/>} />
       <Route path="find" element={<Find/>} />
       <Route path="top" element={<Top/>} />
+      <Route path='discount' element={<Discount/>}/>
+      <Route path="video" element={<Video/>} />
     </Routes>
     <Footer/>
   </div>
