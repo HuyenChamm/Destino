@@ -3,6 +3,7 @@ import Find from "./Find";
 import Top from "./Top";
 import Discount from "./Discount";
 import Video from "./Video";
+import Popular from "./Popular";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
     <Top/>
     <Discount/>
     <Video/>
+    <Popular/>
     </div>
   );
 }

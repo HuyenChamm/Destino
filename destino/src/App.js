@@ -22,6 +22,7 @@ import Find from './components/Home/Find';
 import Top from './components/Home/Top';
 import Discount from './components/Home/Discount';
 import Video from './components/Home/Video';
+import Popular from './components/Home/Popular';
 
 export default function App() {
   return (
@@ -38,6 +39,7 @@ export default function App() {
       <Route path="top" element={<Top/>} />
       <Route path='discount' element={<Discount/>}/>
       <Route path="video" element={<Video/>} />
+      <Route path="popular" element={<Popular/>} />
     </Routes>
     <Footer/>
   </div>
