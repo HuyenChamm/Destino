@@ -1,14 +1,27 @@
 .popular{
   .test{
-    background-color: var(--lightpink);
-    width: 200px;
-    height: 200px;
-    margin: 10px;
+   position: relative;
+   padding: 20px;
+  }
+  .title{
+    color: white;
+    position: absolute;
+    bottom: 30px;
+    left: 40px;
+    p,h6{
+      margin-bottom: 0px;
+      font-weight: 500;
+    }
+  }
+  img{
+    width: 100%;
+    height: auto;
   }
   .content{
     display: grid;
     grid-template-columns: auto ;
   }
+
   @media (min-width:$screen-md){
     .content{
       display: grid;

@@ -4,7 +4,7 @@ export default function Top() {
   return (
     <div className='top container'>
       <div className='title text-center'>
-        <h2>Top destinations in Europe</h2>
+        <h4>Top destinations in Europe</h4>
         <p>TAKE A LOOK AT THESE OFFER</p>
       </div>
       <div className='content'>

@@ -4,6 +4,8 @@ import Top from "./Top";
 import Discount from "./Discount";
 import Video from "./Video";
 import Popular from "./Popular";
+import Special from "./Special";
+import Subscribe from "./Subscribe";
 
 export default function Home() {
   return (
@@ -19,6 +21,8 @@ export default function Home() {
     <Discount/>
     <Video/>
     <Popular/>
+    <Special/>
+    <Subscribe/>
     </div>
   );
 }

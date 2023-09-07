@@ -23,6 +23,8 @@ import Top from './components/Home/Top';
 import Discount from './components/Home/Discount';
 import Video from './components/Home/Video';
 import Popular from './components/Home/Popular';
+import Subscribe from './components/Home/Subscribe';
+import Special from './components/Home/Special';
 
 export default function App() {
   return (
@@ -40,6 +42,8 @@ export default function App() {
       <Route path='discount' element={<Discount/>}/>
       <Route path="video" element={<Video/>} />
       <Route path="popular" element={<Popular/>} />
+      <Route path="subscribe" element={<Subscribe/>} />
+      <Route path="special" element={<Special/>} />
     </Routes>
     <Footer/>
   </div>

@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import YouTube from 'react-youtube';
+import { CaretRightOutlined, CloseCircleOutlined, PlayCircleOutlined } from "@ant-design/icons";
 
 export default function Video() {
   
@@ -8,25 +9,26 @@ export default function Video() {
     setShow(!show);
   };
 
-  const opts = {
-    height: '390',
-    width: '640',
-    playerVars: {
-      // Các tham số của video YouTube
-      autoplay: 0, // Không tự động phát video
-    },
-  };
+  // const opts = {
+  //   height: '390',
+  //   width: '640',
+  //   playerVars: {
+  //     // Các tham số của video YouTube
+  //     autoplay: 0, // Không tự động phát video
+  //   },
+  // };
   const videoId = 'lxsIioVYPpg';
 
   return (
     <div className='video'>
-     <button onClick={showVideo}>Play Video</button>
-      {show && (
-        <div>
-          <button onClick={showVideo}>Đóng Video</button>
-          <YouTube videoId={videoId} opts={opts} />
+    {!show?(
+      <button className='play' onClick={showVideo}><CaretRightOutlined  className='CaretRightOutlined'/></button>
+    ):(
+      <div className='content'>
+          <button className='close' onClick={showVideo}><CloseCircleOutlined /></button>
+          <YouTube videoId={videoId}  className='videoo'/>
         </div>
-      )}
+    )}
     </div>
   )
 }
