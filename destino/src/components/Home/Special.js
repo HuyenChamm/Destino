@@ -1,4 +1,4 @@
-import React from 'react'
+import React, {  useState } from 'react'
 import Slider from 'react-slick'
 import 'slick-carousel/slick/slick.css';
 import 'slick-carousel/slick/slick-theme.css';
@@ -11,6 +11,7 @@ export default function Special() {
     speed: 500,
     slidesToShow:3,
     slidesToScroll: 1,
+ 
     responsive: [
       {
         breakpoint: 768,
@@ -26,11 +27,11 @@ export default function Special() {
 
   return (
     <div className='special mb-5'>
-        <div  className=' text-center'>
+        <div  className=' text-center mb-5'>
           <h4>Special offers</h4>
           <p>TAKE A LOOK AT THESE OFFERS</p>
         </div>
-      <div>
+      <div className='content'>
         <Slider {...settings}>
           <div className='slidee'>
             <img src="/images/special_1.jpg" alt=""  />
@@ -68,6 +69,7 @@ export default function Special() {
             </div>
           </div>
         </Slider>
+        
       </div>
     </div>
   )

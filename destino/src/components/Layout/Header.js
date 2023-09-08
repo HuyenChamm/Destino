@@ -117,7 +117,7 @@ export default function Header() {
                 </li>
               </ul>
               <div className="search">
-                <SearchOutlined style={{ fontSize: "30px", color: "white" }} />;
+                <SearchOutlined style={{ fontSize: "30px", color: "white" }} />
               </div>
             </div>
           </div>
