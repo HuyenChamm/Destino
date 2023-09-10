@@ -36,21 +36,21 @@
       font-size: 16px;
     }
   }
-//   .content{
-//     position: relative;
-//   }
-//   .slick-prev{
-//     display: none !important;
-//   }
+  .content{
+    position: relative;
+  }
+  .slick-prev{
+    display: none !important;
+  }
 //   .slick-next:before {
 //     content: '→';
 //     font-size: 32px;
 // }
-//   .slick-next{
-//     // display: none !important;
-//     position: absolute;
-//     top: 50%;
-//     right: 5%;
-//     font-size: 30px;
-//   }
+  .slick-next{
+    display: none !important;
+    position: absolute;
+    // top: 50%;
+    // right: 5%;
+    // font-size: 30px;
+  }
 }

@@ -25,6 +25,7 @@ import Video from './components/Home/Video';
 import Popular from './components/Home/Popular';
 import Subscribe from './components/Home/Subscribe';
 import Special from './components/Home/Special';
+import BannerA from './components/About/BannerA';
 
 export default function App() {
   return (
@@ -32,7 +33,6 @@ export default function App() {
     <Header/>
     <Routes>
       <Route path="/" element={<Home/>} />
-      <Route path="about" element={<About/>} />
       <Route path="news" element={<News/>} />
       <Route path="offers" element={<Offers/>} />
       <Route path="contact" element={<Contact/>} />
@@ -44,6 +44,9 @@ export default function App() {
       <Route path="popular" element={<Popular/>} />
       <Route path="subscribe" element={<Subscribe/>} />
       <Route path="special" element={<Special/>} />
+
+      <Route path="about" element={<About/>} />
+      <Route path='banner' element={<BannerA/>}/>
     </Routes>
     <Footer/>
   </div>
