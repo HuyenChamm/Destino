@@ -1,8 +1,40 @@
 .aboutpage{
+  
   .find{
     z-index: 10;
     margin-top: -100px;
     position: relative;
   }
-
+  .content{
+    color: gray;
+    img{
+      width: 100%;
+    }
+  }
+  @media (max-width:$screen-lg)
+  {
+    .left{
+      p{
+        font-size: 12px;
+      }
+      padding-top: 20px;
+    }
+    h4{
+      font-size: 24px;
+    }
+  }
+  @media (min-width:$screen-lg){
+    .content{
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+    .left{
+      flex: 1;
+      padding: 20px;
+    }
+    .right{
+      flex: 1;
+    }
+  }
 } 
