@@ -1,6 +1,7 @@
 import React from "react";
 import Find from "../Home/Find";
 import BannerA from "./BannerA";
+import Fact from "./Fact";
 
 export default function About() {
   return (
@@ -38,6 +39,7 @@ export default function About() {
           </div>
         </div>
       </div>
+      <Fact/>
     </div>
   );
 }

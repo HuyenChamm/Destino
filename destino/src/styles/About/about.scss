@@ -7,6 +7,7 @@
   }
   .content{
     color: gray;
+    
     img{
       width: 100%;
     }
@@ -23,18 +24,30 @@
       font-size: 24px;
     }
   }
+
   @media (min-width:$screen-lg){
     .content{
       display: flex;
       flex-direction: row-reverse;
-      justify-content: space-between;
+    
     }
     .left{
       flex: 1;
-      padding: 20px;
+      line-height: 2;
+      padding-right: 60px;
+      p{
+        font-size: 15px;
+      }
     }
     .right{
       flex: 1;
+    }
+  }
+  @media (min-width:$screen-xl){
+    .content{
+      padding-left: 100px;
+      padding-right: 100px;
+      padding-top: 50px;
     }
   }
 } 

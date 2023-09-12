@@ -1,0 +1,29 @@
+.fact{
+  background-image: url('../../../public/images/fact_background.jpg');
+  background-position: center;
+  background-size: cover;
+  width: 100%;
+  color: var(--white);
+  text-align: center;
+  padding-bottom: 70px;
+  img{
+    width: 82px;
+    height: 82px;
+  }
+  .title{
+    padding-top: 100px;
+  }
+  .description{
+    width: 60%;
+    margin: auto;
+    padding-top: 40px;
+  }
+  @media (min-width:$screen-lg) {
+    .content_fact{
+      padding-top: 40px;
+      display: flex;
+      flex-direction:row ;
+      justify-content: space-around;
+    }
+  }
+}
