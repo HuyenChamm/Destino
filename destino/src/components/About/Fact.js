@@ -5,8 +5,8 @@ export default function Fact() {
   return (
     <div className="fact">
       <div className="title">
-        <h4>Fun facts about our Agency</h4>
-        <p>TAKE A LOOK</p>
+        <h2>Fun facts about our Agency</h2>
+        <h6>TAKE A LOOK</h6>
       </div>
 
       <div className="description">

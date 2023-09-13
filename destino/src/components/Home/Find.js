@@ -22,7 +22,7 @@ export default function Find() {
     </div> */}
       <div className="container">
         <div className="text-center pt-5">
-          <h4>Find the Adventure of a lifetime</h4>
+          <h2>Find the Adventure of a lifetime</h2>
         </div>
         <div className="content">
           <div className="left">

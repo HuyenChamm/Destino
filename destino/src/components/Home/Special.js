@@ -28,8 +28,8 @@ export default function Special() {
   return (
     <div className='special mb-5'>
         <div  className=' text-center mb-5'>
-          <h4>Special offers</h4>
-          <p>TAKE A LOOK AT THESE OFFERS</p>
+          <h2>Special offers</h2>
+          <h6>TAKE A LOOK AT THESE OFFERS</h6>
         </div>
       <div className='content'>
         <Slider {...settings}>

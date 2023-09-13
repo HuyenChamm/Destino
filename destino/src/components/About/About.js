@@ -13,8 +13,8 @@ export default function About() {
         </div>
         <div className="mt-5 ">
           <div className="mt-5 text-center">
-            <h4>We are an award winning Agency</h4>
-            <p>TAKE A LOOK AT OUR STORY</p>
+            <h2>We are an award winning Agency</h2>
+            <h6>TAKE A LOOK AT OUR STORY</h6>
           </div>
 
           <div className="content">

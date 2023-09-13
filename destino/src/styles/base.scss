@@ -70,6 +70,24 @@ h2, h3, h4, h5, h6, p, a {
   font-weight: 300;
   font-family: "Montserrat", sans-serif;
 }
+@media (max-width:$screen-lg)
+{
+  h2{
+    font-size:30px;
+  }
+  h6{
+    font-size: 20px;
+  }
+}
+@media (max-width:$screen-md)
+{
+  h2{
+    font-size:24px;
+  }
+  h6{
+    font-size: 16px;
+  }
+}
 
 .btn-pink {
   width: 160px;

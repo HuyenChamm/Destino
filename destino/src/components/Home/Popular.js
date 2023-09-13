@@ -5,8 +5,8 @@ export default function Popular() {
     <div className='popular'>
       <div className='container '>
         <div  className=' text-center'>
-          <h4>Popular destinations in 2018</h4>
-          <p>TAKE A LOOK AT THESE OFFERS</p>
+          <h2>Popular destinations in 2018</h2>
+          <h6>TAKE A LOOK AT THESE OFFERS</h6>
         </div>
         <div className='content '>
           <div className=' test '>
