@@ -27,6 +27,7 @@ import Subscribe from './components/Home/Subscribe';
 import Special from './components/Home/Special';
 import BannerA from './components/About/BannerA';
 import Fact from './components/About/Fact';
+import APopular from './components/About/APopular';
 
 export default function App() {
   return (
@@ -49,6 +50,7 @@ export default function App() {
       <Route path="about" element={<About/>} />
       <Route path='banner' element={<BannerA/>}/>
       <Route path='fact' element={<Fact/>}/> 
+      <Route path='apopular' element={<APopular/>}/>
     </Routes>
     <Footer/>
   </div>

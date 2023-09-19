@@ -1,0 +1,44 @@
+.apopular{
+  .icon{
+    font-size: 45px;
+    padding-right: 20px;
+  }
+  .child {
+    padding: 10px;
+  }
+  .child:hover{
+    .icon{
+      color: var(--lightpink);
+    }
+   
+  }
+  h5{
+    font-size: 20px;
+    margin-bottom: 0;
+  }
+  
+  a{
+    text-decoration: none;
+    color: var(--blue);
+  }
+  a:hover{
+    background: var(--lightpink);
+  }
+@media (min-width:$screen-xl)
+{
+  h5{
+    font-size: 24px;
+  }
+  .icon{
+    font-size: 75px;
+  }
+  .content{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+  }
+  .child {
+    padding: 30px;
+  }
+}
+}

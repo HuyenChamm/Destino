@@ -2,7 +2,8 @@ import React from "react";
 import Find from "../Home/Find";
 import BannerA from "./BannerA";
 import Fact from "./Fact";
-
+import APopular from "./APopular";
+import Subscribe from "../Home/Subscribe";
 export default function About() {
   return (
     <div className="aboutpage">
@@ -40,6 +41,8 @@ export default function About() {
         </div>
       </div>
       <Fact/>
+      <APopular/>
+      <Subscribe/>
     </div>
   );
 }
